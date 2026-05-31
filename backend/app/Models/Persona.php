@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Persona extends Model
 {
+    // Se cambio por discrepancias entre las migraciones y los controladores y modelos
     use HasFactory, HasUuids;
 
     public $incrementing = false;

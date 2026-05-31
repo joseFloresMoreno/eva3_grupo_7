@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Empresa extends Model
 {
+    // Se cambio por discrepancias entre las migraciones y los controladores y modelos
     use HasFactory, HasUuids;
 
     public $incrementing = false;
